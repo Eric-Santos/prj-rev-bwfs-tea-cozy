@@ -1,0 +1,98 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+text-align: center;
+}
+.header{
+  display: flex;
+  position: fixed;
+  height: 69px;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+
+}
+
+.site-nav ul li{
+  list-style: none;
+  display: flex;
+  text-align: right;
+}
+.site-nav a{
+  color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+.logo{
+  height: 50px;
+  width: 150px;
+}
+.content{
+
+}
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  }
+  .text{
+    background-color: black;
+  }
+  .tea{
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 1000px;
+    border: 1px solid white;
+    margin-left: 100px;
+  }
+  img{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+  }
+  .locations{
+
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    border: 1px solid white;
+
+  }
+  .downtown{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+    margin-top: 50px;
+  }
+  .bayside{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+    padding-top: 0px;
+  }
+  .oakdale{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+    padding-top: 0px;
+  }
+  .copyright{
+    text-align: left;
+    padding-left: 20px;
+  }
